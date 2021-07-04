@@ -4,7 +4,7 @@ body{
     margin: 0px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
    
 }
 span{
@@ -14,7 +14,7 @@ button{
     background-color: red;
     color: white;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
    
@@ -43,6 +43,7 @@ section{
     background-repeat: no-repeat;
 
 }
+                                
 
 .dream-big{
     background-image: url(images/dream-bg.png);
@@ -50,4 +51,20 @@ section{
     background-position: right;
     
    
+}
+.experience-area .half-width{
+
+
+    
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding: 10px;
+    border-left: hotpink solid 5px;
+}
+#web{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
 }
